@@ -1,6 +1,7 @@
 {
   "_comment": "Build with `packer build -var-file=centos67-desktop.json centos.json`",
   "vm_name": "centos67-desktop",
+  "iso_path": "iso/centos67",
   "cpus": "1",
   "desktop": "true",
   "disk_size": "130048",

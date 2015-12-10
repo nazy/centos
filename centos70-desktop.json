@@ -1,0 +1,16 @@
+{
+  "_comment": "Build with `packer build -var-file=centos70-desktop.json centos.json`",
+  "vm_name": "centos70-desktop",
+  "iso_path": "iso/centos70",
+  "cpus": "1",
+  "desktop": "true",
+  "disk_size": "130048",
+  "iso_checksum": "a800ed4b00a612346aaf599ebf36a8101472303e  ",
+  "iso_checksum_type": "sha1",
+  "iso_name": "CentOS-7.0-1406-x86_64-Everything.iso",
+  "iso_url": "http://archive.kernel.org/centos-vault/7.0.1406/isos/x86_64/CentOS-7.0-1406-x86_64-Everything.iso",
+  "kickstart": "ks7-desktop.cfg",
+  "memory": "1024",
+  "parallels_guest_os_type": "rhel7",
+  "vagrantfile_template": "tpl/vagrantfile-centos70-desktop.tpl"
+}

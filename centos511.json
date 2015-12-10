@@ -1,6 +1,7 @@
 {
   "_comment": "Build with `packer build -var-file=centos511.json centos.json`",
   "vm_name": "centos511",
+  "iso_path": "iso/centos511",
   "cpus": "1",
   "disk_size": "65536",
   "iso_checksum": "ebd77f2fdfac8da04f31c508905cf52aa62937cc",
